@@ -121,14 +121,14 @@ p {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   will-change: transform;
-  background-color: #a200ff;
-  color: white;
 }
 
 #options-wrapper li a:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+  background-color: #a200ff;
+  color: white;
 }
 
 a:hover {
