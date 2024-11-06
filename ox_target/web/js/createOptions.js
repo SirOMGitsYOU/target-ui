@@ -15,7 +15,7 @@ export function createOptions(type, data, id, zoneId) {
   if (data.hide) return;
   const option = document.createElement('li');
 
-  option.innerHTML = `<a><i class="fa-fw ${data.icon} option-icon" style="color:${data.iconColor || '#2d2f32'}"></i>${data.label}</a>`;
+  option.innerHTML = `<a><i class="fa-fw ${data.icon} option-icon"></i>${data.label}</a>`;
   option.targetType = type;
   option.targetId = id;
   option.zoneId = zoneId;

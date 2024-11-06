@@ -106,12 +106,13 @@ p {
   line-height: 20px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  opacity: 90%;
 }
 
 #options-wrapper li a {
   font-size: 16px;
   display: inline-block;
-  color: #181b20;
+  color: #444444;
   background: white;
   border-radius: 30px;
   padding: 10px 20px 10px 18px;
@@ -120,12 +121,18 @@ p {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   will-change: transform;
+  background-color: #a200ff;
+  color: white;
 }
 
 #options-wrapper li a:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+a:hover {
+  background-color:red;
 }
 
 #options-wrapper li a .option-icon {
